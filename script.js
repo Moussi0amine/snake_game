@@ -21,3 +21,15 @@ function setDirection(event) {
     else if (event.key === "ArrowRight" && direction !== "LEFT") direction = "RIGHT";
     else if (event.key === "ArrowDown" && direction !== "UP") direction = "DOWN"; 
 }
+
+function draw() {
+    // 🟦 1. Clear the canvas (black background)
+    ctx.fillStyle = "#000";
+    ctx.fillRect(0, 0, canvas.clientWidth, canvas.height);
+
+    // 🐍 2. Draw the snake
+    for (let i = 0; i < snake.length; i++) {
+        ctx.fillStyle = i === 0 ? "lime" : "green"; // Head = lighter
+        ctx.fillRect(snake[i].x, snake[i].y, box, box);
+    }
+}
