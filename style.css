@@ -1,25 +1,25 @@
 body {
-    display: flex;                             /* Align everything in the center */
-    flex-direction: column;                    /* Stack items vertically */
-    align-items: center;                       /* Center horizontally */    
-    justify-content: center;                   /* Center vertically */
-    background: #111;                        /* Dark background */
-    color: #fff;                             /* White text */
-    font-family: Arial, sans-serif;
-    height: 100vh;                             /* Full screen height */
-    margin: 0;                                 /* Remove default spacing */
+  display: flex;                 /* Aligns everything in center */
+  flex-direction: column;        /* Stack items vertically */
+  align-items: center;           /* Center horizontally */
+  justify-content: center;       /* Center vertically */
+  background: #111;              /* Dark background */
+  color: #fff;                   /* White text */
+  font-family: Arial, sans-serif;
+  height: 100vh;                 /* Full screen height */
+  margin: 0;                     /* Remove default spacing */
 }
 
 h1 {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 canvas {
-    border: 2px solid #fff;                   /* white border */
-    background: #000;                         /* Black backgroun for game */                          
+  border: 2px solid #fff;        /* White border */
+  background: #000;              /* Black background for game */
 }
 
-score {
-    margin-top: 10px;
-    font-size: 20px;
+#score {
+  margin-top: 10px;
+  font-size: 20px;
 }
