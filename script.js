@@ -11,3 +11,13 @@ let food = {
 };
 
 let score = 0;
+
+// 🎮 2. Controls
+document.addEventListener("keydown", setDirection);
+
+function setDirection(event) {
+    if (event.key === "ArrowLeft" && direction !== "RIGHT") direction = "LEFT";
+    else if (event.key === "ArrowUp" && direction !== "Down") direction = "UP";
+    else if (event.key === "ArrowRight" && direction !== "LEFT") direction = "RIGHT";
+    else if (event.key === "ArrowDown" && direction !== "UP") direction = "DOWN"; 
+}
