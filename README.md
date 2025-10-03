@@ -41,4 +41,4 @@ Play directly in your browser! 🎮
 ## 📦 Installation (Run Locally)
 1. Clone this repo:
    ```bash
-   git clone https://github.com/YOUR_GITHUB_USERNAME/REPO_NAME.git
+   git clone https://github.com/Moussi0amine/snake_game.git
